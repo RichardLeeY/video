@@ -7,7 +7,7 @@ AWS 官方提供了视频点播转码的解决方案: [AWS 上的视频点播基
 - SourceS3BucketArn 源S3桶唯一资源标识 例如：arn:aws:s3:::videofile
 
 ## 实施步骤
-1. 下载文件[cfTemplate]()
+1. 下载文件[cfTemplate](https://github.com/RichardLeeY/video/blob/main/cloudformation/video-on-demand-on-aws-foundation.template)
 2. 在CloudFormation控制台创建新的cloudformation stack，选择从本地上传Cloudformation模版的方式创建。
 3. 资源创建完成后，下载job定义文件[job-settings.json]()。将此文件上传到源S3桶的需要转码的视频文件夹中。
 
